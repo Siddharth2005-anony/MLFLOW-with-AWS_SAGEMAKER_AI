@@ -1,0 +1,7 @@
+# folders
+data/
+mlruns/
+backstore/
+__pycache__
+YOUR_MLFLOW_TRACKING_URI
+mlflow-sage26.pem
