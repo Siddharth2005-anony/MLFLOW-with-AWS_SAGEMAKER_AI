@@ -180,16 +180,11 @@ Input CSV files contain daily SMART attribute readings with columns correspondin
 
 ## Security Notes
 
-- The `mlflow-sage26.pem` file contains AWS credentials - **do not commit to version control**
 - Ensure proper IAM roles for SageMaker invocation
 - Consider using AWS Secrets Manager for production deployments
 
 ## Future Improvements
 
-- [ ] Add input validation and schema documentation
-- [ ] Implement model versioning in API
-- [ ] Add monitoring and logging
-- [ ] Containerize with Docker
 - [ ] Set up CI/CD pipeline
 - [ ] Add batch prediction endpoint
 - [ ] Implement A/B testing for model versions
