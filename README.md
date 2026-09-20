@@ -6,6 +6,10 @@ An end-to-end MLOps pipeline for predicting server/hard drive failures using SMA
 
 This project predicts potential server/hard drive failures by analyzing SMART attributes collected from drives. The model is trained using XGBoost, tracked with MLflow, deployed to AWS SageMaker, and served via a FastAPI REST API.
 
+## DEMO VIDEO URL
+
+https://youtu.be/5C4J_0qDYwA
+
 ## Architecture
 
 ```
